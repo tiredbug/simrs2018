@@ -1,0 +1,84 @@
+<?php
+require_once("epi/epi_chartjs.php");
+ew_AddClientScript("epi/js/Chart.min.js");
+//echo epi_helpBox('Context-Sensitive Help','<h3>This is a context-sensitive help box.</h3><p>You can put helpful tips in any page you like. Stays collapsed until you open it intentionally!</p>'); 
+?>
+<div class = "row">
+
+<div class="col-xs-12 col-sm-4">
+<?php
+$adminlte = 'https://github.com/almasaeed2010/AdminLTE/archive/v2.3.11.zip';
+// use whatever PHP functions you like to get these results 'lastmod', 'filesize' and 'mime' into an array
+$adminlte_array = array('lastmod'=>"2017-07-07", 'filesize'=>bytesConvert(123456), 'mime'=>"unknown/zip");
+//epi_downloadBox takes a link, the file info array (see above), the title, and the style
+echo epi_downloadBox($adminlte,$adminlte_array,'Latest <strong>AdminLTE</strong> Template:','green');
+?>
+</div>
+
+<div class="col-xs-12 col-sm-4">
+<?php
+$adminlte_rc = 'https://github.com/almasaeed2010/AdminLTE/archive/v2.4.0-rc.zip';
+$adminlte_rc_array = array('lastmod'=>"2017-03-03", 'filesize'=>bytesConvert(456789), 'mime'=>"unknown/zip");
+echo epi_downloadBox($adminlte_rc,$adminlte_rc_array,'Latest <strong>AdminLTE RC</strong> Template:','green');
+?>
+</div>
+
+<div class="col-xs-12 col-sm-4">
+<?php
+$epiadminlte = 'https://www.elyptic.com/docs/epiadminlte/index.html';
+$epiadminlte_array = array('lastmod'=>"2017-03-03", 'filesize'=>bytesConvert(456789), 'mime'=>"unknown/zip");
+echo epi_custDownloadBox($epiadminlte,$epiadminlte_array,'Latest <strong>EPI AdminLTE</strong> Template:','yellow');
+?>
+</div>
+
+</div>
+
+<div class = "row">
+<div class = "col-xs-12 col-md-8">
+<?php
+$dataset_sql = "
+SELECT LEFT(v_countrycode, 2)  AS `ccode`, COUNT(v_countrycode) AS `visits`
+FROM pd_analytics
+WHERE LEFT(v_countrycode, 2) != ''
+GROUP BY LEFT(v_countrycode, 2)
+ORDER BY visits
+";
+$map_data = epi_GetAll($dataset_sql); // needs to be associative only, use epi_GetAll()
+if ($map_data) echo epi_mapBox($map_data, 500, true, 'Visitors <code>epi_mapBox()</code>', 'light-blue');
+?>
+</div>
+
+<div class = "col-xs-12 col-md-4">
+<?php echo epi_closeableBox("Closeable Box!","<p><a href = '#'>Click here</a> to go to an important link in your project.</p>","primary"); ?>
+
+<div class="box box-solid">
+<div class="box-header with-border">
+<i class="fa fa-text-width"></i>
+<h3 class="box-title">Friendly Tip</h3>
+</div>
+
+<div class="box-body">
+<blockquote>
+<p>Sometimes I wonder if people remember they're still looking at a PHPMaker template. Truth is, they are, but it was never this much fun.</p>
+<small>Chris Coltman <cite title="Source Title">Anatomy of a PHPMaker Source File</cite></small>
+</blockquote>
+</div>
+</div>
+
+</div>
+</div>
+
+<div class = "row">
+<div class = "col-xs-12 col-md-4">
+<?php 
+echo epi_latestMembers($EPIUser_AvatarFolder, 'pd_users', 'pd_activated', 'pd_datejoined', "Latest Members");
+?>
+</div>
+
+<div class = "col-xs-12 col-md-8">
+<?php
+echo epi_carousel('pd_imgorder','io_filename','io_caption','io_order', "Carousel (edit the order <a href = 'pd_imgorderlist.php'>here</a>)");
+?>
+</div>
+</div>
+

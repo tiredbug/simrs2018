@@ -1,0 +1,890 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configuration date="2018/04/16" author="e.World Technology Ltd.">
+  <project id="{9EA43BBE-9546-4DFA-A9E1-2DE91AC35CAA}" file="D:\ARIGUS WAHYU GANTENG\ONE DRIVE\OneDrive\pmp\updatesimrs-vclaim\billingrawatinap_new2.pmp" name="billingrawatinap_new2" product="PHPMaker" version="13.0" datetime="2018/04/16 14:15:54" languagefolder="phplang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8">
+    <table id="a_anamnesa_poli_rajal" name="a_anamnesa_poli_rajal" caption="a anamnesa poli rajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_aturan_pakai_obat_rajal" name="a_aturan_pakai_obat_rajal" caption="a aturan pakai obat rajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_detail_permintaan_obat_ibs" name="a_detail_permintaan_obat_ibs" caption="a detail permintaan obat ibs" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_detail_permintaan_obat_rajal" name="a_detail_permintaan_obat_rajal" caption="a detail permintaan obat rajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_diagnosa_ibs" name="a_diagnosa_ibs" caption="a diagnosa ibs" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_diagnosa_icdx" name="a_diagnosa_icdx" caption="a diagnosa icdx" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_diagnosa_lab" name="a_diagnosa_lab" caption="a diagnosa lab" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_diagnosa_poli" name="a_diagnosa_poli" caption="a diagnosa poli" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_diagnosa_poli_rajal" name="a_diagnosa_poli_rajal" caption="a diagnosa poli rajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_fisio_anamnesa" name="a_fisio_anamnesa" caption="a fisio anamnesa" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_fisio_diagnosa" name="a_fisio_diagnosa" caption="a fisio diagnosa" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_fisio_keterangan" name="a_fisio_keterangan" caption="a fisio keterangan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_fisio_tindakan" name="a_fisio_tindakan" caption="a fisio tindakan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_fisioterapi" name="a_fisioterapi" caption="a fisioterapi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_igd_akomodasi" name="a_igd_akomodasi" caption="a igd akomodasi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_igd_ambulan_jenazah" name="a_igd_ambulan_jenazah" caption="a igd ambulan jenazah" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_igd_anamnesa_perawat" name="a_igd_anamnesa_perawat" caption="a igd anamnesa perawat" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_igd_asuhan_keperawatan2" name="a_igd_asuhan_keperawatan2" caption="a igd asuhan keperawatan 2" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_igd_diagnosa_poli" name="a_igd_diagnosa_poli" caption="a igd diagnosa poli" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_igd_keterangan_pasien" name="a_igd_keterangan_pasien" caption="a igd keterangan pasien" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_igd_konfirmasi_order" name="a_igd_konfirmasi_order" caption="a igd konfirmasi order" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_igd_oksigen" name="a_igd_oksigen" caption="a igd oksigen" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_igd_penjualan_obat" name="a_igd_penjualan_obat" caption="a igd penjualan obat" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_igd_penunjang" name="a_igd_penunjang" caption="a igd penunjang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_igd_pilih_dokter" name="a_igd_pilih_dokter" caption="a igd pilih dokter" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_igd_tindakan_askeb" name="a_igd_tindakan_askeb" caption="a igd tindakan askeb" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_igd_tindakan_askep" name="a_igd_tindakan_askep" caption="a igd tindakan askep" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_igd_tindakan_gizi" name="a_igd_tindakan_gizi" caption="a igd tindakan gizi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_igd_tindakan_jenazah" name="a_igd_tindakan_jenazah" caption="a igd tindakan jenazah" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_igd_tindakan_keperawanan" name="a_igd_tindakan_keperawanan" caption="a igd tindakan keperawanan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_igd_tindakan_laboratorium" name="a_igd_tindakan_laboratorium" caption="a igd tindakan laboratorium" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_igd_tindakan_persalinan" name="a_igd_tindakan_persalinan" caption="a igd tindakan persalinan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_igd_tindakan_radiologi" name="a_igd_tindakan_radiologi" caption="a igd tindakan radiologi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_igd_tindakan_tmno" name="a_igd_tindakan_tmno" caption="a igd tindakan tmno" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_igd_tindakan_tmo" name="a_igd_tindakan_tmo" caption="a igd tindakan tmo" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_indexing_diagnosa" name="a_indexing_diagnosa" caption="a indexing diagnosa" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_keterangan_ibs_rajal" name="a_keterangan_ibs_rajal" caption="a keterangan ibs rajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_keterangan_inacbg" name="a_keterangan_inacbg" caption="a keterangan inacbg" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_keterangan_poli_rajal" name="a_keterangan_poli_rajal" caption="a keterangan poli rajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_konfirmasi_poli_rajal" name="a_konfirmasi_poli_rajal" caption="a konfirmasi poli rajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_konsultasi" name="a_konsultasi" caption="a konsultasi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_laboratorium" name="a_laboratorium" caption="a laboratorium" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_laborders" name="a_laborders" caption="a laborders" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_laporan_kedatangan_pasien" name="a_laporan_kedatangan_pasien" caption="a laporan kedatangan pasien" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_laporan_pasien_masuk_rawat_inap" name="a_laporan_pasien_masuk_rawat_inap" caption="a laporan pasien masuk rawat inap" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_laporan_tmno" name="a_laporan_tmno" caption="a laporan tmno" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_laporan_transaksi_poli" name="a_laporan_transaksi_poli" caption="a laporan transaksi poli" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_operasi_bedah" name="a_operasi_bedah" caption="a operasi bedah" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_pendaftaran_fisioterapi" name="a_pendaftaran_fisioterapi" caption="a pendaftaran fisioterapi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_pendaftaran_kasir_rawat_jalan" name="a_pendaftaran_kasir_rawat_jalan" caption="a pendaftaran kasir rawat jalan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_pendaftaran_pasien_ibs_order" name="a_pendaftaran_pasien_ibs_order" caption="a pendaftaran pasien ibs order" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_pendaftaran_pasien_igd" name="a_pendaftaran_pasien_igd" caption="a pendaftaran pasien igd" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_pendaftaran_pasien_inacbg" name="a_pendaftaran_pasien_inacbg" caption="a pendaftaran pasien inacbg" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_pendaftaran_pasien_konsultasi_order" name="a_pendaftaran_pasien_konsultasi_order" caption="a pendaftaran pasien konsultasi order" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_pendaftaran_pasien_laboratorium_order" name="a_pendaftaran_pasien_laboratorium_order" caption="a pendaftaran pasien laboratorium order" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_pendaftaran_pasien_laboratorium_order_inacbg" name="a_pendaftaran_pasien_laboratorium_order_inacbg" caption="a pendaftaran pasien laboratorium order inacbg" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_pendaftaran_pasien_radiologi_order" name="a_pendaftaran_pasien_radiologi_order" caption="a pendaftaran pasien radiologi order" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_pendaftaran_rajal_bulan" name="a_pendaftaran_rajal_bulan" caption="a pendaftaran rajal bulan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_pendaftaran_rawat_jalan" name="a_pendaftaran_rawat_jalan" caption="a pendaftaran rawat jalan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_poli" name="a_poli" caption="a poli" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_radiologi" name="a_radiologi" caption="a radiologi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_radiologi_tindakan" name="a_radiologi_tindakan" caption="a radiologi tindakan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_rincian_tindakan" name="a_rincian_tindakan" caption="a rincian tindakan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_riwayat_diagnosa" name="a_riwayat_diagnosa" caption="a riwayat diagnosa" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_riwayat_pasien_lama" name="a_riwayat_pasien_lama" caption="a riwayat pasien lama" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_riwayat_tindakan" name="a_riwayat_tindakan" caption="a riwayat tindakan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_status_pasien" name="a_status_pasien" caption="a status pasien" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_tagihan_igd_kasir" name="a_tagihan_igd_kasir" caption="a tagihan igd kasir" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_tagihan_pelayanan_igd" name="a_tagihan_pelayanan_igd" caption="a tagihan pelayanan igd" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_tagihan_pelayanan_rawat_jalan" name="a_tagihan_pelayanan_rawat_jalan" caption="a tagihan pelayanan rawat jalan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_tagihan_rawat_jalan" name="a_tagihan_rawat_jalan" caption="a tagihan rawat jalan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_tagihan_rawat_jalan_kasir" name="a_tagihan_rawat_jalan_kasir" caption="a tagihan rawat jalan kasir" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_tindakan_keperawatan" name="a_tindakan_keperawatan" caption="a tindakan keperawatan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_tindakan_laboratorium" name="a_tindakan_laboratorium" caption="a tindakan laboratorium" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_tindakan_laboratorium_inacbg" name="a_tindakan_laboratorium_inacbg" caption="a tindakan laboratorium inacbg" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_tindakan_laboratorium_ket" name="a_tindakan_laboratorium_ket" caption="a tindakan laboratorium ket" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_tindakan_laboratorium_lab" name="a_tindakan_laboratorium_lab" caption="a tindakan laboratorium lab" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_tindakan_pasien" name="a_tindakan_pasien" caption="a tindakan pasien" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_tindakan_poli_rajal" name="a_tindakan_poli_rajal" caption="a tindakan poli rajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_tindakan_poli_rajal_tmo" name="a_tindakan_poli_rajal_tmo" caption="a tindakan poli rajal tmo" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_tindakan_radiologi" name="a_tindakan_radiologi" caption="a tindakan radiologi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_tindakan_radiologi_inacbg" name="a_tindakan_radiologi_inacbg" caption="a tindakan radiologi inacbg" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_tmno_keperawatan_poli_igd" name="a_tmno_keperawatan_poli_igd" caption="a tmno keperawatan poli igd" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_tmno_persalinan_igd" name="a_tmno_persalinan_igd" caption="a tmno persalinan igd" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_tmno_poli_igd" name="a_tmno_poli_igd" caption="a tmno poli igd" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_tmo_poli_igd" name="a_tmo_poli_igd" caption="a tmo poli igd" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="akun1" name="akun1" caption="akun 1" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="akun2" name="akun2" caption="akun 2" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="akun3" name="akun3" caption="akun 3" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="akun4" name="akun4" caption="akun 4" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="akun5" name="akun5" caption="akun 5" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="audittrail" name="audittrail" caption="audittrail" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="bentuk_perusahaan" name="bentuk_perusahaan" caption="bentuk perusahaan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="bpajak" name="bpajak" caption="bpajak" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="bpeng" name="bpeng" caption="bpeng" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="buat_sep_php" name="buat_sep.php" caption="" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="budget" name="budget" caption="budget" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="cek_kepesertaan_bpjs_php" name="cek_kepesertaan_bpjs.php" caption="cek_kepesertaan_bpjs" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="chart1_php" name="chart1.php" caption="Chart1" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="chat" name="chat" caption="chat" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="daftar_pencetak_sep" name="daftar_pencetak_sep" caption="daftar pencetak sep" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="Dasboard2_php" name="Dasboard2.php" caption="Dasboard2" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="data" name="data" caption="data" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="data_dasar" name="data_dasar" caption="data dasar" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="data_kontrak" name="data_kontrak" caption="data kontrak" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="data_kontrak_detail_termin" name="data_kontrak_detail_termin" caption="TERMIN" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="data_vital" name="data_vital" caption="data vital" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="detail_spj" name="detail_spj" caption="Detail SPJ" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="fake_sales" name="fake_sales" caption="fake sales" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="hargaupdate" name="hargaupdate" caption="hargaupdate" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="home_php" name="home.php" caption="Dasboard" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="icd" name="icd" caption="icd" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="icd_cm" name="icd_cm" caption="icd cm" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="icd_eklaim" name="icd_eklaim" caption="icd eklaim" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="insert_sep_ranap_php" name="insert_sep_ranap.php" caption="" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="jenis_rumahsakit" name="jenis_rumahsakit" caption="jenis rumahsakit" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="kasir_pendaftaran_biaya_rs" name="kasir_pendaftaran_biaya_rs" caption="kasir pendaftaran biaya rs" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="kasir_pendaftaran_igd" name="kasir_pendaftaran_igd" caption="kasir pendaftaran igd" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="kasir_pendaftaran_umum" name="kasir_pendaftaran_umum" caption="kasir pendaftaran umum" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="kdbelanja" name="kdbelanja" caption="kdbelanja" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="kelas" name="kelas" caption="kelas" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="keu_akun1" name="keu_akun1" caption="keu akun 1" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="keu_akun2" name="keu_akun2" caption="Akun 2" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="keu_akun3" name="keu_akun3" caption="Akun 3" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="keu_akun4" name="keu_akun4" caption="Akun 4" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="keu_akun5" name="keu_akun5" caption="Akun 5" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="l_agama" name="l_agama" caption="l agama" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="l_biaya_ibs" name="l_biaya_ibs" caption="l biaya ibs" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="l_biayapelayanansimrs" name="l_biayapelayanansimrs" caption="l biayapelayanansimrs" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="l_bool" name="l_bool" caption="l bool" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="l_bulan" name="l_bulan" caption="l bulan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="l_discharge_status" name="l_discharge_status" caption="l discharge status" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="l_grup_tindakan_internal" name="l_grup_tindakan_internal" caption="l grup tindakan internal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="l_jenis_akomodasi" name="l_jenis_akomodasi" caption="l jenis akomodasi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="l_jenis_anastesi" name="l_jenis_anastesi" caption="l jenis anastesi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="l_jenis_askep" name="l_jenis_askep" caption="l jenis askep" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="l_jenis_detail_spp" name="l_jenis_detail_spp" caption="l jenis detail spp" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="l_jenis_mutasi" name="l_jenis_mutasi" caption="l jenis mutasi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="l_jenis_pajak" name="l_jenis_pajak" caption="l jenis pajak" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="l_jenis_pasien" name="l_jenis_pasien" caption="l jenis pasien" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="l_jenis_spp" name="l_jenis_spp" caption="l jenis spp" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="l_jeniskasus" name="l_jeniskasus" caption="l jeniskasus" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="l_jeniskelamin" name="l_jeniskelamin" caption="l jeniskelamin" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="l_jeniskeperawatan" name="l_jeniskeperawatan" caption="l jeniskeperawatan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="l_jenispasien" name="l_jenispasien" caption="l jenispasien" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="l_kategori_tmo_ibs" name="l_kategori_tmo_ibs" caption="l kategori tmo ibs" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="l_kelas_perawatan" name="l_kelas_perawatan" caption="l kelas perawatan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="l_kelas_rajal_eklaim" name="l_kelas_rajal_eklaim" caption="l kelas rajal eklaim" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="l_kode_tarif_eklaim" name="l_kode_tarif_eklaim" caption="l kode tarif eklaim" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="l_konfigurasi_ws" name="l_konfigurasi_ws" caption="l konfigurasi ws" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="l_lakalantas" name="l_lakalantas" caption="l lakalantas" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="l_ok_bs" name="l_ok_bs" caption="l ok bs" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="l_pasienbaru" name="l_pasienbaru" caption="l pasienbaru" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="l_pembiusan" name="l_pembiusan" caption="l pembiusan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="l_pendidikanterakhir" name="l_pendidikanterakhir" caption="l pendidikanterakhir" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="l_program_op" name="l_program_op" caption="l program op" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="l_shift" name="l_shift" caption="l shift" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="l_status_pembayaran" name="l_status_pembayaran" caption="l status pembayaran" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="l_status_pembayaran_kasir" name="l_status_pembayaran_kasir" caption="l status pembayaran kasir" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="l_statuspelayanan" name="l_statuspelayanan" caption="l statuspelayanan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="l_statusperkawin" name="l_statusperkawin" caption="l statusperkawin" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="l_tahun" name="l_tahun" caption="l tahun" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="l_tarif_kelompok_tindakan" name="l_tarif_kelompok_tindakan" caption="l tarif kelompok tindakan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="l_tarif_sub_kelompok_1" name="l_tarif_sub_kelompok_1" caption="l tarif sub kelompok 1" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="l_tarif_sub_kelompok_2" name="l_tarif_sub_kelompok_2" caption="l tarif sub kelompok 2" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="l_titel" name="l_titel" caption="l titel" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="l_trainingkode" name="l_trainingkode" caption="l trainingkode" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="l_type_persalinan" name="l_type_persalinan" caption="l type persalinan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="l_type_tindakan_keperawatan_rajal" name="l_type_tindakan_keperawatan_rajal" caption="l type tindakan keperawatan rajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="l_type_tmno_rajal" name="l_type_tmno_rajal" caption="l type tmno rajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="l_type_tmo_rajal" name="l_type_tmo_rajal" caption="l type tmo rajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="l_typedokter" name="l_typedokter" caption="l typedokter" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="l_upgrade_class_ind" name="l_upgrade_class_ind" caption="l upgrade class ind" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="l_yes_no" name="l_yes_no" caption="l yes no" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="laborders" name="laborders" caption="laborders" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="labresult_details" name="labresult_details" caption="labresult details" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="labresult_header" name="labresult_header" caption="labresult header" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="lap_arus_stok" name="lap_arus_stok" caption="lap arus stok" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="lap_register_obat_rajal" name="lap_register_obat_rajal" caption="lap register obat rajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="lap_stok_ambil_ibs" name="lap_stok_ambil_ibs" caption="lap stok ambil ibs" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="lap_stok_ambil_igd" name="lap_stok_ambil_igd" caption="lap stok ambil igd" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="lap_stok_beli_gudang" name="lap_stok_beli_gudang" caption="lap stok beli gudang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="lap_stok_kirim" name="lap_stok_kirim" caption="lap stok kirim" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="lap_stok_kirim_gudang" name="lap_stok_kirim_gudang" caption="lap stok kirim gudang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="lap_stok_koreksi" name="lap_stok_koreksi" caption="lap stok koreksi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="lap_stok_mutasi" name="lap_stok_mutasi" caption="lap stok mutasi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="lap_stok_terjual_ibs" name="lap_stok_terjual_ibs" caption="lap stok terjual ibs" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="lap_stok_terjual_igd" name="lap_stok_terjual_igd" caption="lap stok terjual igd" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="lap_stok_terjual_rajal" name="lap_stok_terjual_rajal" caption="lap stok terjual rajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="lap_stok_terjual_ranap" name="lap_stok_terjual_ranap" caption="lap stok terjual ranap" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="log_bayarrajal" name="log_bayarrajal" caption="log bayarrajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="log_billrajal" name="log_billrajal" caption="log billrajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_bahasa_harian" name="m_bahasa_harian" caption="m bahasa harian" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_barang" name="m_barang" caption="m barang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_barang_group" name="m_barang_group" caption="m barang group" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_barang_unit" name="m_barang_unit" caption="m barang unit" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_batal" name="m_batal" caption="m batal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_blud_rs" name="m_blud_rs" caption="m blud rs" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="m_carabayar" name="m_carabayar" caption="m carabayar" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_dasarrujuk" name="m_dasarrujuk" caption="m dasarrujuk" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_data_tarif" name="m_data_tarif" caption="m data tarif" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,111" priv="1" />
+    <table id="m_detail_tempat_tidur" name="m_detail_tempat_tidur" caption="m detail tempat tidur" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_diagnosa_keperawatan" name="m_diagnosa_keperawatan" caption="m diagnosa keperawatan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_diagnosakeluar_ranap" name="m_diagnosakeluar_ranap" caption="m diagnosakeluar ranap" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_diagnosis_kep" name="m_diagnosis_kep" caption="m diagnosis kep" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_dokter" name="m_dokter" caption="m dokter" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_dokter_jaga" name="m_dokter_jaga" caption="m dokter jaga" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_dokter_jaga_ranap" name="m_dokter_jaga_ranap" caption="Dokter Rawat Inap" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,111" priv="1" />
+    <table id="m_dokter_pengganti" name="m_dokter_pengganti" caption="m dokter pengganti" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_dokter_praktek" name="m_dokter_praktek" caption="m dokter praktek" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_domain_diagnosa_kep" name="m_domain_diagnosa_kep" caption="m domain diagnosa kep" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_etnis" name="m_etnis" caption="m etnis" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_farmasi" name="m_farmasi" caption="m_farmasi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_gruptindakan" name="m_gruptindakan" caption="m gruptindakan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_instalasi" name="m_instalasi" caption="m instalasi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_intervensi" name="m_intervensi" caption="m intervensi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_jamkesda" name="m_jamkesda" caption="m jamkesda" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_jamkesdasilver" name="m_jamkesdasilver" caption="m jamkesdasilver" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_kajian_kep" name="m_kajian_kep" caption="m kajian kep" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_kategoritindakan" name="m_kategoritindakan" caption="m kategoritindakan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_kecamatan" name="m_kecamatan" caption="m kecamatan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_kegiatan" name="m_kegiatan" caption="m kegiatan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="m_kegiatan_internal" name="m_kegiatan_internal" caption="m kegiatan internal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_kegiatan_tahunan_rs" name="m_kegiatan_tahunan_rs" caption="m kegiatan tahunan rs" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="m_kegiatan_tahunan_rs_detail" name="m_kegiatan_tahunan_rs_detail" caption="m kegiatan tahunan rs detail" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="m_kelurahan" name="m_kelurahan" caption="m kelurahan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_ketenagaan" name="m_ketenagaan" caption="m ketenagaan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_ketenagaan_data" name="m_ketenagaan_data" caption="m ketenagaan data" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_ketenagaan_jenis" name="m_ketenagaan_jenis" caption="m ketenagaan jenis" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_ketenagaan_kelompok" name="m_ketenagaan_kelompok" caption="m ketenagaan kelompok" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_kota" name="m_kota" caption="m kota" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_lab" name="m_lab" caption="m lab" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_login" name="m_login" caption="Profil Akun" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_maxnobill" name="m_maxnobill" caption="m maxnobill" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_maxnobyr" name="m_maxnobyr" caption="m maxnobyr" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_maxnomr" name="m_maxnomr" caption="m maxnomr" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_maxnorsp" name="m_maxnorsp" caption="m maxnorsp" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_obat" name="m_obat" caption="m obat" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_order_penunjang" name="m_order_penunjang" caption="m order penunjang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="m_pasien" name="m_pasien" caption="Data Pasien" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_pasien_aps" name="m_pasien_aps" caption="m pasien aps" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_pasienbl" name="m_pasienbl" caption="m pasienbl" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_peg" name="m_peg" caption="m peg" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_pejabat_keuangan" name="m_pejabat_keuangan" caption="m pejabat keuangan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="m_penugasan_perawat" name="m_penugasan_perawat" caption="m penugasan perawat" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_perawat" name="m_perawat" caption="m perawat" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_perawat_rkerja" name="m_perawat_rkerja" caption="m perawat rkerja" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_petugas_radiologi" name="m_petugas_radiologi" caption="m petugas radiologi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_poly" name="m_poly" caption="m poly" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_program" name="m_program" caption="m program" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="m_provinsi" name="m_provinsi" caption="m provinsi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_radiologi" name="m_radiologi" caption="m radiologi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_ruang" name="m_ruang" caption="Ruangan Inap" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_ruang_detail" name="m_ruang_detail" caption="m ruang detail" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_ruang_gas" name="m_ruang_gas" caption="m ruang gas" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_rujukan" name="m_rujukan" caption="m rujukan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_saratjamkesmas" name="m_saratjamkesmas" caption="m saratjamkesmas" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_spesialisasitindakan" name="m_spesialisasitindakan" caption="m spesialisasitindakan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_statuskeluar" name="m_statuskeluar" caption="m statuskeluar" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_statuskeluarranap" name="m_statuskeluarranap" caption="m statuskeluarranap" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_sub_kegiatan" name="m_sub_kegiatan" caption="m sub kegiatan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="m_sub_var1_diagnosa_kep" name="m_sub_var1_diagnosa_kep" caption="m sub var 1 diagnosa kep" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_sub_var2_diagnosa_kep" name="m_sub_var2_diagnosa_kep" caption="m sub var 2 diagnosa kep" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_sub_var3_diagnosa_kep" name="m_sub_var3_diagnosa_kep" caption="m sub var 3 diagnosa kep" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_sub_var4_diagnosa_kep" name="m_sub_var4_diagnosa_kep" caption="m sub var 4 diagnosa kep" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_supvis" name="m_supvis" caption="m supvis" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_tarif" name="m_tarif" caption="m tarif" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_tarif2012" name="m_tarif2012" caption="m tarif 2012" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_tarifpendaftaran" name="m_tarifpendaftaran" caption="m tarifpendaftaran" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_tarifpenunjang_medis" name="m_tarifpenunjang_medis" caption="m tarifpenunjang medis" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_tariftindakan_rajal" name="m_tariftindakan_rajal" caption="m tariftindakan rajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_tindakan_ibs" name="m_tindakan_ibs" caption="m tindakan ibs" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_tindakan_tarif" name="m_tindakan_tarif" caption="m tindakan tarif" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_tindakankeluar_ranap" name="m_tindakankeluar_ranap" caption="m tindakankeluar ranap" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_unit" name="m_unit" caption="m unit" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="m_user_login" name="m_user_login" caption="m user login" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="maping_sep_ranap_php" name="maping_sep_ranap.php" caption="" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="mapping_trans_sep_php" name="mapping_trans_sep.php" caption="" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="mk_arus_kas" name="mk_arus_kas" caption="mk arus kas" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="mk_neraca" name="mk_neraca" caption="mk neraca" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="mk_realisasi_anggaran" name="mk_realisasi_anggaran" caption="mk realisasi anggaran" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="n_bayi" name="n_bayi" caption="n bayi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="n_bidan" name="n_bidan" caption="n bidan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="n_id_nomor" name="n_id_nomor" caption="n id nomor" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="n_orang_tua" name="n_orang_tua" caption="n orang tua" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="pd_analytics" name="pd_analytics" caption="pd analytics" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="pd_changelog" name="pd_changelog" caption="pd changelog" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="pd_events" name="pd_events" caption="pd events" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="pd_imgorder" name="pd_imgorder" caption="pd imgorder" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="pd_messages" name="pd_messages" caption="pd messages" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="pd_notifications" name="pd_notifications" caption="Pemberitahuan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="pd_personallog" name="pd_personallog" caption="pd personallog" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="pd_tasks" name="pd_tasks" caption="pd tasks" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="pd_users" name="pd_users" caption="pd users" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="pendaftaran_pasien_rajal_jaminan_sosial" name="pendaftaran_pasien_rajal_jaminan_sosial" caption="pendaftaran pasien rajal jaminan sosial" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="pendaftaran_pasien_rajal_umum" name="pendaftaran_pasien_rajal_umum" caption="pendaftaran pasien rajal umum" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="pendaftaran_ranap_sukses_php" name="pendaftaran_ranap_sukses.php" caption="Pendaftaran Rawat Inap" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="pendaftaran_sukses_php" name="pendaftaran_sukses.php" caption="Pendaftaran Sukses" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="pentahapan_akreditasi" name="pentahapan_akreditasi" caption="pentahapan akreditasi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="penyelenggara_swasta" name="penyelenggara_swasta" caption="penyelenggara swasta" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="peserta_by_noKa_php" name="peserta_by_noKa.php" caption="" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="profil" name="profil" caption="profil" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="refdiagnosis" name="refdiagnosis" caption="refdiagnosis" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="refpoli" name="refpoli" caption="refpoli" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="refppk" name="refppk" caption="refppk" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="res_cbg" name="res_cbg" caption="res cbg" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="Rujukan_by_no_rujukan_php" name="Rujukan_by_no_rujukan.php" caption="" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="spp" name="spp" caption="spp" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="status_akreditasi" name="status_akreditasi" caption="status akreditasi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="sukses_simpan_pasien_php" name="sukses_simpan_pasien.php" caption="Simpan Data Identitas Pasien Berhasil" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="t_admission" name="t_admission" caption="List Pasien Rawat Inap" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_admission_detail" name="t_admission_detail" caption="t admission detail" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,111" priv="1" />
+    <table id="t_admission_detail_diagnosa" name="t_admission_detail_diagnosa" caption="t admission detail diagnosa" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_admission_detail_tindakan" name="t_admission_detail_tindakan" caption="t admission detail tindakan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_advis_spm" name="t_advis_spm" caption="Advis SPM" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="t_advis_spm_detail" name="t_advis_spm_detail" caption="Detail Advis" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="t_alasan_rujuk" name="t_alasan_rujuk" caption="t alasan rujuk" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_barang_stok" name="t_barang_stok" caption="t barang stok" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_bayar" name="t_bayar" caption="t bayar" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_bayarrajal" name="t_bayarrajal" caption="t bayarrajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_bayarranap" name="t_bayarranap" caption="t bayarranap" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_berita" name="t_berita" caption="t berita" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="t_billobat_racikan" name="t_billobat_racikan" caption="t billobat racikan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_billobat_rajal" name="t_billobat_rajal" caption="t billobat rajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_billobat_ranap" name="t_billobat_ranap" caption="t billobat ranap" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_billrajal" name="t_billrajal" caption="t billrajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_billranap" name="t_billranap" caption="t billranap" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_cetak_data" name="t_cetak_data" caption="t cetak data" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_data_verifikasi" name="t_data_verifikasi" caption="t data verifikasi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_deposit" name="t_deposit" caption="t deposit" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_detail_diagnosakep" name="t_detail_diagnosakep" caption="t detail diagnosakep" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_diagnosadanterapi" name="t_diagnosadanterapi" caption="t diagnosadanterapi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_diagnosakep" name="t_diagnosakep" caption="t diagnosakep" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_dpmp" name="t_dpmp" caption="t dpmp" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_ekg" name="t_ekg" caption="t ekg" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_fjp_jmks" name="t_fjp_jmks" caption="t fjp jmks" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_hasilugd" name="t_hasilugd" caption="t hasilugd" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_indikator_kep" name="t_indikator_kep" caption="t indikator kep" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_jadwaldokter" name="t_jadwaldokter" caption="t jadwaldokter" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_jamkesmas_sarat" name="t_jamkesmas_sarat" caption="t jamkesmas sarat" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_keu_jurnal" name="t_keu_jurnal" caption="t keu jurnal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_keu_pajak" name="t_keu_pajak" caption="t keu pajak" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_keu_spp" name="t_keu_spp" caption="t keu spp" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_konsul_dokter" name="t_konsul_dokter" caption="t konsul dokter" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_kunjungan_kamar" name="t_kunjungan_kamar" caption="t kunjungan kamar" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_mutasi_kas" name="t_mutasi_kas" caption="t mutasi kas" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="t_notification" name="t_notification" caption="t notification" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_obat_stok" name="t_obat_stok" caption="t obat stok" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_obat2" name="t_obat2" caption="t obat 2" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_operasi" name="t_operasi" caption="t operasi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_operasi_barang" name="t_operasi_barang" caption="t operasi barang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_operasi_cito" name="t_operasi_cito" caption="t operasi cito" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_operasi_tindakan_medis" name="t_operasi_tindakan_medis" caption="t operasi tindakan medis" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_orderadmission" name="t_orderadmission" caption="Order Rawat Inap" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_orderlab" name="t_orderlab" caption="t orderlab" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_orderlab_aps" name="t_orderlab_aps" caption="t orderlab aps" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_pelayananpenunjang" name="t_pelayananpenunjang" caption="t pelayananpenunjang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_pelayananpenunjang_detail" name="t_pelayananpenunjang_detail" caption="t pelayananpenunjang detail" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_pemberianobat" name="t_pemberianobat" caption="t pemberianobat" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_pendaftaran" name="t_pendaftaran" caption="Pendaftaran Pasien Rawat Jalan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="t_pendaftaran_aps" name="t_pendaftaran_aps" caption="t pendaftaran aps" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="t_pendaftaran_ibs" name="t_pendaftaran_ibs" caption="t pendaftaran ibs" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_pendaftaran_igd" name="t_pendaftaran_igd" caption="t pendaftaran igd" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_pendaftaran_iso" name="t_pendaftaran_iso" caption="t pendaftaran iso" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_pendaftaran_rajal" name="t_pendaftaran_rajal" caption="t pendaftaran rajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_pendaftaran_ranap" name="t_pendaftaran_ranap" caption="t pendaftaran ranap" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_penerimaan_barang" name="t_penerimaan_barang" caption="t penerimaan barang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_pengadaan_barang" name="t_pengadaan_barang" caption="t pengadaan barang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_pengeluaran_barang" name="t_pengeluaran_barang" caption="t pengeluaran barang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_pengembalian_barang" name="t_pengembalian_barang" caption="t pengembalian barang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_permintaan_apotek" name="t_permintaan_apotek" caption="t permintaan apotek" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_permintaan_barang" name="t_permintaan_barang" caption="t permintaan barang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_pp" name="t_pp" caption="t pp" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_radiologi" name="t_radiologi" caption="t radiologi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_radiologi_aps" name="t_radiologi_aps" caption="t radiologi aps" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_radiologi_petugas" name="t_radiologi_petugas" caption="t radiologi petugas" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_radiologi_petugas_aps" name="t_radiologi_petugas_aps" caption="t radiologi petugas aps" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_reg_partus" name="t_reg_partus" caption="t reg partus" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_rekammedik" name="t_rekammedik" caption="t rekammedik" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_rencanakeperawatan" name="t_rencanakeperawatan" caption="t rencanakeperawatan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_resep" name="t_resep" caption="t resep" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_resep_detail" name="t_resep_detail" caption="t resep detail" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_resumemedis" name="t_resumemedis" caption="t resumemedis" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_resumepulang" name="t_resumepulang" caption="t resumepulang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_ruang_detail_gudangbarang" name="t_ruang_detail_gudangbarang" caption="t ruang detail gudangbarang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_ruang_detail_gudangfarmasi" name="t_ruang_detail_gudangfarmasi" caption="t ruang detail gudangfarmasi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_sbp" name="t_sbp" caption="Surat Bukti Pengeluaran" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="t_sbp_detail" name="t_sbp_detail" caption="Detail Rekening Belanja" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="t_sep" name="t_sep" caption="SEP BPJS" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="t_setoran_pajak_gu" name="t_setoran_pajak_gu" caption="t setoran pajak gu" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="t_spd" name="t_spd" caption="Data SPD" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="t_spj" name="t_spj" caption="SPJ" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="t_spp" name="t_spp" caption="t spp" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="t_spp_detail" name="t_spp_detail" caption="Detail Belanja UP" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="t_tindakan_detail_ambulan" name="t_tindakan_detail_ambulan" caption="t tindakan detail ambulan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_tindakan_detail_cdr_poli" name="t_tindakan_detail_cdr_poli" caption="t tindakan detail cdr poli" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_tindakan_detail_dokter" name="t_tindakan_detail_dokter" caption="t tindakan detail dokter" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_tindakan_detail_fisioterapi" name="t_tindakan_detail_fisioterapi" caption="t tindakan detail fisioterapi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_tindakan_detail_konsultasi_gizi" name="t_tindakan_detail_konsultasi_gizi" caption="t tindakan detail konsultasi gizi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_tindakan_detail_labigd" name="t_tindakan_detail_labigd" caption="t tindakan detail labigd" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_tindakan_detail_lainlain" name="t_tindakan_detail_lainlain" caption="t tindakan detail lainlain" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_tindakan_detail_oksigen" name="t_tindakan_detail_oksigen" caption="t tindakan detail oksigen" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_tindakan_detail_pemberian_obat" name="t_tindakan_detail_pemberian_obat" caption="t tindakan detail pemberian obat" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_tindakan_detail_perawat" name="t_tindakan_detail_perawat" caption="t tindakan detail perawat" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_tindakan_detail_rad" name="t_tindakan_detail_rad" caption="t tindakan detail rad" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_tindakan_detail_retur_pemberian_obat" name="t_tindakan_detail_retur_pemberian_obat" caption="t tindakan detail retur pemberian obat" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_tindakan_detail_tind_igd" name="t_tindakan_detail_tind_igd" caption="t tindakan detail tind igd" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_tindakan_detail_tind_rajal" name="t_tindakan_detail_tind_rajal" caption="t tindakan detail tind rajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_tindakan_detail_tmo" name="t_tindakan_detail_tmo" caption="t tindakan detail tmo" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_tindakan_detail_tmo_perawat" name="t_tindakan_detail_tmo_perawat" caption="t tindakan detail tmo perawat" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_tindakan_detail_visit_dokter" name="t_tindakan_detail_visit_dokter" caption="t tindakan detail visit dokter" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_tindakan_medis" name="t_tindakan_medis" caption="t tindakan medis" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_usg" name="t_usg" caption="t usg" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_usulan" name="t_usulan" caption="t usulan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="t_working_record" name="t_working_record" caption="t working record" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="tabel_barang_id" name="tabel_barang_id" caption="tabel barang id" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="tabel_gudang_id" name="tabel_gudang_id" caption="tabel gudang id" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="tabel_mutasi_id" name="tabel_mutasi_id" caption="tabel mutasi id" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="tabel_pembelian_id" name="tabel_pembelian_id" caption="tabel pembelian id" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="tabel_penjualan_id" name="tabel_penjualan_id" caption="tabel penjualan id" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="tabel_retur_pembelian_id" name="tabel_retur_pembelian_id" caption="tabel retur pembelian id" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="tabel_returpenjualan_id" name="tabel_returpenjualan_id" caption="tabel returpenjualan id" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="tabel_supplier_id" name="tabel_supplier_id" caption="tabel supplier id" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="tbantrianpoli" name="tbantrianpoli" caption="Antrian Poli" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="tbnoantri" name="tbnoantri" caption="Antrian Rawat Jalan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="tbpanggil" name="tbpanggil" caption="Panggil" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="temp_arus_stok" name="temp_arus_stok" caption="temp arus stok" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="temp_barang" name="temp_barang" caption="temp barang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="temp_barang_detail_ranap" name="temp_barang_detail_ranap" caption="temp barang detail ranap" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="temp_barang_ranap" name="temp_barang_ranap" caption="temp barang ranap" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="temp_cartapotek_permintaan" name="temp_cartapotek_permintaan" caption="temp cartapotek permintaan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="temp_cartbarang" name="temp_cartbarang" caption="temp cartbarang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="temp_cartbarang_penerimaan" name="temp_cartbarang_penerimaan" caption="temp cartbarang penerimaan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="temp_cartbarang_pengadaan" name="temp_cartbarang_pengadaan" caption="temp cartbarang pengadaan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="temp_cartbarang_pengeluaran" name="temp_cartbarang_pengeluaran" caption="temp cartbarang pengeluaran" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="temp_cartbarang_pengembalian" name="temp_cartbarang_pengembalian" caption="temp cartbarang pengembalian" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="temp_cartbarang_permintaan" name="temp_cartbarang_permintaan" caption="temp cartbarang permintaan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="temp_cartobat" name="temp_cartobat" caption="temp cartobat" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="temp_detail_barang" name="temp_detail_barang" caption="temp detail barang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="temp_detail_barang_ranap" name="temp_detail_barang_ranap" caption="temp detail barang ranap" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="temp_inacbg" name="temp_inacbg" caption="temp inacbg" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="temp_pendaftaran" name="temp_pendaftaran" caption="temp pendaftaran" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="temp_register_obat_rajal" name="temp_register_obat_rajal" caption="temp register obat rajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="temp_stok_ambil_igd" name="temp_stok_ambil_igd" caption="temp stok ambil igd" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="temp_stok_beli_gudang" name="temp_stok_beli_gudang" caption="temp stok beli gudang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="temp_stok_kirim" name="temp_stok_kirim" caption="temp stok kirim" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="temp_stok_kirim_gudang" name="temp_stok_kirim_gudang" caption="temp stok kirim gudang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="temp_stok_koreksi" name="temp_stok_koreksi" caption="temp stok koreksi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="temp_stok_mutasi" name="temp_stok_mutasi" caption="temp stok mutasi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="temp_stok_terjual_ibs" name="temp_stok_terjual_ibs" caption="temp stok terjual ibs" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="temp_stok_terjual_igd" name="temp_stok_terjual_igd" caption="temp stok terjual igd" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="temp_stok_terjual_rajal" name="temp_stok_terjual_rajal" caption="temp stok terjual rajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="temp_stok_terjual_ranap" name="temp_stok_terjual_ranap" caption="temp stok terjual ranap" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="temp_total_billing_igd" name="temp_total_billing_igd" caption="temp total billing igd" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="temp_total_billing_kasir" name="temp_total_billing_kasir" caption="temp total billing kasir" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="temp_total_billing_rajal" name="temp_total_billing_rajal" caption="temp total billing rajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="tk_arus_kas" name="tk_arus_kas" caption="tk arus kas" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="tk_neraca" name="tk_neraca" caption="tk neraca" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="tk_realisasi_anggaran" name="tk_realisasi_anggaran" caption="tk realisasi anggaran" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="tmp_cartbayar" name="tmp_cartbayar" caption="tmp cartbayar" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="tmp_cartetiket" name="tmp_cartetiket" caption="tmp cartetiket" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="tmp_cartorderlab" name="tmp_cartorderlab" caption="tmp cartorderlab" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="tmp_cartorderrad" name="tmp_cartorderrad" caption="tmp cartorderrad" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="tmp_cartresep" name="tmp_cartresep" caption="tmp cartresep" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="tmp_mintaobatranap" name="tmp_mintaobatranap" caption="tmp mintaobatranap" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="tmp_orderpenunjang" name="tmp_orderpenunjang" caption="tmp orderpenunjang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="tmp_racikan_obat" name="tmp_racikan_obat" caption="tmp racikan obat" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="tmp_returobatranap" name="tmp_returobatranap" caption="tmp returobatranap" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="tpl_report_labrm" name="tpl_report_labrm" caption="tpl report labrm" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="training" name="training" caption="Notulen" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="userlevelpermissions" name="userlevelpermissions" caption="userlevelpermissions" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="userlevels" name="userlevels" caption="userlevels" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="v_backup_detail_penjualan_ibs" name="v_backup_detail_penjualan_ibs" caption="v backup detail penjualan ibs" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="v_backup_detail_penjualan_rajal" name="v_backup_detail_penjualan_rajal" caption="v backup detail penjualan rajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="v_backup_pendaftaran_farmasi" name="v_backup_pendaftaran_farmasi" caption="v backup pendaftaran farmasi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="v_barang" name="v_barang" caption="v barang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="v_barang_batch" name="v_barang_batch" caption="v barang batch" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="v_barang_ibs" name="v_barang_ibs" caption="v barang ibs" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="v_barang_igd" name="v_barang_igd" caption="v barang igd" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="v_barang_mutasi" name="v_barang_mutasi" caption="v barang mutasi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="v_barang_pembelian_gudang" name="v_barang_pembelian_gudang" caption="v barang pembelian gudang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="v_barang_penjualan" name="v_barang_penjualan" caption="v barang penjualan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="v_barang_penjualan_gudang" name="v_barang_penjualan_gudang" caption="v barang penjualan gudang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="v_barang_penjualan_ibs" name="v_barang_penjualan_ibs" caption="v barang penjualan ibs" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="v_barang_penjualan_igd" name="v_barang_penjualan_igd" caption="v barang penjualan igd" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="v_barang_penjualan_rajal" name="v_barang_penjualan_rajal" caption="v barang penjualan rajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="v_barang_rajal" name="v_barang_rajal" caption="v barang rajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="v_barang_ranap" name="v_barang_ranap" caption="v barang ranap" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="v_detail_barang" name="v_detail_barang" caption="v detail barang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="v_detail_barang_gudang" name="v_detail_barang_gudang" caption="v detail barang gudang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="v_detail_barang_semua" name="v_detail_barang_semua" caption="v detail barang semua" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="v_detail_penjualan_rajal" name="v_detail_penjualan_rajal" caption="v detail penjualan rajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="v_history" name="v_history" caption="v history" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="v_limit_stok" name="v_limit_stok" caption="v limit stok" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="v_stok_dibawah_limit" name="v_stok_dibawah_limit" caption="v stok dibawah limit" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="v_stok_kadaluwarsa" name="v_stok_kadaluwarsa" caption="v stok kadaluwarsa" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="v_tagihan_obat" name="v_tagihan_obat" caption="v tagihan obat" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="v_tagihan_pelayanan_ibs" name="v_tagihan_pelayanan_ibs" caption="v tagihan pelayanan ibs" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="vew_lap_gudang_bulanan_2" name="vew_lap_gudang_bulanan_2" caption="vew lap gudang bulanan 2" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="view_lap_gudang" name="view_lap_gudang" caption="view lap gudang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="view_lap_gudang_bulanan" name="view_lap_gudang_bulanan" caption="view lap gudang bulanan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="view_lap_gudang_harian" name="view_lap_gudang_harian" caption="view lap gudang harian" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="view_lap_gudang_tahunan" name="view_lap_gudang_tahunan" caption="view lap gudang tahunan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="view_lap_unit_bulanan" name="view_lap_unit_bulanan" caption="view lap unit bulanan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="view_lap_unit_harian" name="view_lap_unit_harian" caption="view lap unit harian" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="view_laporan_register_obat_rajal" name="view_laporan_register_obat_rajal" caption="view laporan register obat rajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="view_order_operasi" name="view_order_operasi" caption="view order operasi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="view_orderlab" name="view_orderlab" caption="view orderlab" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="view_orderrad" name="view_orderrad" caption="view orderrad" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="view_orderrad_dokter" name="view_orderrad_dokter" caption="view orderrad dokter" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="view_orderresep" name="view_orderresep" caption="view orderresep" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="view_pasien_terdaftar" name="view_pasien_terdaftar" caption="view pasien terdaftar" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="view_penerimaan_unit" name="view_penerimaan_unit" caption="view penerimaan unit" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="view_pengeluaran_unit" name="view_pengeluaran_unit" caption="view pengeluaran unit" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="view_poli" name="view_poli" caption="view poli" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="view_rincian_pembelian_obat_gudang" name="view_rincian_pembelian_obat_gudang" caption="view rincian pembelian obat gudang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="view_rincian_pengambilan_obat" name="view_rincian_pengambilan_obat" caption="view rincian pengambilan obat" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="view_rincian_pengiriman_obat" name="view_rincian_pengiriman_obat" caption="view rincian pengiriman obat" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="view_rincian_penjualan_obat_gudang" name="view_rincian_penjualan_obat_gudang" caption="view rincian penjualan obat gudang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="view_rincian_penjualan_obat_ibs" name="view_rincian_penjualan_obat_ibs" caption="view rincian penjualan obat ibs" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="view_rincian_penjualan_obat_igd" name="view_rincian_penjualan_obat_igd" caption="view rincian penjualan obat igd" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="view_rincian_penjualan_obat_rajal" name="view_rincian_penjualan_obat_rajal" caption="view rincian penjualan obat rajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="view_rincian_penjualan_obat_ranap" name="view_rincian_penjualan_obat_ranap" caption="view rincian penjualan obat ranap" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="view_riwayat_jual_obat" name="view_riwayat_jual_obat" caption="view riwayat jual obat" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="view_riwayat_jual_obat_ibs" name="view_riwayat_jual_obat_ibs" caption="view riwayat jual obat ibs" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="view_riwayat_jual_obat_igd" name="view_riwayat_jual_obat_igd" caption="view riwayat jual obat igd" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="view_riwayat_jual_obat_rajal" name="view_riwayat_jual_obat_rajal" caption="view riwayat jual obat rajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="view_riwayat_koeksi" name="view_riwayat_koeksi" caption="view riwayat koeksi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="view_riwayat_mutasi" name="view_riwayat_mutasi" caption="view riwayat mutasi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="view_riwayat_obat_ambil" name="view_riwayat_obat_ambil" caption="view riwayat obat ambil" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="view_riwayat_obat_kirim" name="view_riwayat_obat_kirim" caption="view riwayat obat kirim" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="view_riwayat_pembelian_obat_gudang" name="view_riwayat_pembelian_obat_gudang" caption="view riwayat pembelian obat gudang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="view_riwayat_pengiriman_obat_gudang" name="view_riwayat_pengiriman_obat_gudang" caption="view riwayat pengiriman obat gudang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="view1" name="view1" caption="view 1" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="vw_adm_klaim" name="vw_adm_klaim" caption="vw adm klaim" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_adm_ranap" name="vw_adm_ranap" caption="vw adm ranap" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_adm_rawat_inap" name="vw_adm_rawat_inap" caption="vw adm rawat inap" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_biaya_tagihan_sementara" name="vw_biaya_tagihan_sementara" caption="vw biaya tagihan sementara" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_bill_ranap" name="vw_bill_ranap" caption="List Pasien Rawat Inap M" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,111" priv="1" />
+    <table id="vw_bill_ranap_data_tarif_tindakan" name="vw_bill_ranap_data_tarif_tindakan" caption="Katalog Tindakan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,111" priv="1" />
+    <table id="vw_bill_ranap_detail_konsul_dokter" name="vw_bill_ranap_detail_konsul_dokter" caption="Konsul" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,111" priv="1" />
+    <table id="vw_bill_ranap_detail_konsul_vct" name="vw_bill_ranap_detail_konsul_vct" caption="VCT" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,111" priv="1" />
+    <table id="vw_bill_ranap_detail_pelayanan_los" name="vw_bill_ranap_detail_pelayanan_los" caption="LOS" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,111" priv="1" />
+    <table id="vw_bill_ranap_detail_tindakan_kebidanan" name="vw_bill_ranap_detail_tindakan_kebidanan" caption="Tind. Kebidanan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,111" priv="1" />
+    <table id="vw_bill_ranap_detail_tindakan_lain" name="vw_bill_ranap_detail_tindakan_lain" caption="Tind. Lain" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,111" priv="1" />
+    <table id="vw_bill_ranap_detail_tindakan_penunjang" name="vw_bill_ranap_detail_tindakan_penunjang" caption="Tind. Penunjang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,111" priv="1" />
+    <table id="vw_bill_ranap_detail_tindakan_perawat" name="vw_bill_ranap_detail_tindakan_perawat" caption="Tind.Perawat" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,111" priv="1" />
+    <table id="vw_bill_ranap_detail_tmno" name="vw_bill_ranap_detail_tmno" caption="TMNO" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,111" priv="1" />
+    <table id="vw_bill_ranap_detail_visite_farmasi" name="vw_bill_ranap_detail_visite_farmasi" caption="Visite Farmasi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,111" priv="1" />
+    <table id="vw_bill_ranap_detail_visite_gizi" name="vw_bill_ranap_detail_visite_gizi" caption="Gizi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,111" priv="1" />
+    <table id="vw_bill_ranap_detail_visitekonsul_dokter" name="vw_bill_ranap_detail_visitekonsul_dokter" caption="Visite Dokter" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,111" priv="1" />
+    <table id="vw_bridging_sep_by_no_kartu" name="vw_bridging_sep_by_no_kartu" caption="SEP KARTU BPJS" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_bridging_sep_by_no_rujukan" name="vw_bridging_sep_by_no_rujukan" caption="SEP RUJUKAN" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_bridging_sep_by_noktp" name="vw_bridging_sep_by_noktp" caption="vw bridging sep by noktp" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_bridging_sep_ranap_by_no_kartu" name="vw_bridging_sep_ranap_by_no_kartu" caption="vw bridging sep ranap by no kartu" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_bridging_sep_ranap_by_no_rujukan" name="vw_bridging_sep_ranap_by_no_rujukan" caption="vw bridging sep ranap by no rujukan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_cetak_laporan_pasien_ranap" name="vw_cetak_laporan_pasien_ranap" caption="vw cetak laporan pasien ranap" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_daftar_kamar_kosong" name="vw_daftar_kamar_kosong" caption="vw daftar kamar kosong" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_daftar_pasien_rawat_inap" name="vw_daftar_pasien_rawat_inap" caption="vw daftar pasien rawat inap" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_daftar_pemakai_kamar_inap" name="vw_daftar_pemakai_kamar_inap" caption="vw daftar pemakai kamar inap" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_detail_deskripsi_tindakan_ranap" name="vw_detail_deskripsi_tindakan_ranap" caption="vw detail deskripsi tindakan ranap" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_diagnosa_eklaim" name="vw_diagnosa_eklaim" caption="vw diagnosa eklaim" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_district_pendaftaran_rajal_perhari" name="vw_district_pendaftaran_rajal_perhari" caption="vw district pendaftaran rajal perhari" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_dokter_jaga_ranap" name="vw_dokter_jaga_ranap" caption="vw dokter jaga ranap" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_eklaim_detail_diagnosa" name="vw_eklaim_detail_diagnosa" caption="vw eklaim detail diagnosa" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_eklaim_detail_diagnosa_rajal" name="vw_eklaim_detail_diagnosa_rajal" caption="vw eklaim detail diagnosa rajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_eklaim_detail_tindakan" name="vw_eklaim_detail_tindakan" caption="vw eklaim detail tindakan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_eklaim_detail_tindakan_rajal" name="vw_eklaim_detail_tindakan_rajal" caption="vw eklaim detail tindakan rajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_eklaim_rajal" name="vw_eklaim_rajal" caption="vw eklaim rajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_eklaim_rajal_direct" name="vw_eklaim_rajal_direct" caption="vw eklaim rajal direct" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_eklaim_rajal_direct_dev" name="vw_eklaim_rajal_direct_dev" caption="vw eklaim rajal direct dev" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_eklaim_ranap" name="vw_eklaim_ranap" caption="vw eklaim ranap" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_hapus_sep" name="vw_hapus_sep" caption="vw hapus sep" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_ibs_list_pasien_rawat_inap" name="vw_ibs_list_pasien_rawat_inap" caption="vw ibs list pasien rawat inap" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_identitas_pasien_by_id_admission" name="vw_identitas_pasien_by_id_admission" caption="vw identitas pasien by id admission" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_jumlah_pendaftaran_pasien_rajal_by_cara_bayar" name="vw_jumlah_pendaftaran_pasien_rajal_by_cara_bayar" caption="vw jumlah pendaftaran pasien rajal by cara bayar" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_jumlah_pendaftaran_pasien_rajal_by_jenis_kelamin" name="vw_jumlah_pendaftaran_pasien_rajal_by_jenis_kelamin" caption="vw jumlah pendaftaran pasien rajal by jenis kelamin" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_jumlah_pendaftaran_pasien_rajal_by_pasien_baru_pasien_lama" name="vw_jumlah_pendaftaran_pasien_rajal_by_pasien_baru_pasien_lama" caption="vw jumlah pendaftaran pasien rajal by pasien baru pasien lama" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_jumlah_pendaftaran_pasien_rajal_by_poli" name="vw_jumlah_pendaftaran_pasien_rajal_by_poli" caption="vw jumlah pendaftaran pasien rajal by poli" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_kategori_tmo_ibs" name="vw_kategori_tmo_ibs" caption="vw kategori tmo ibs" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_kunjungan_pasien_rajal" name="vw_kunjungan_pasien_rajal" caption="vw kunjungan pasien rajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_laporan_buku_rinc_adm" name="vw_laporan_buku_rinc_adm" caption="vw laporan buku rinc adm" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_laporan_daftar_pasien_per_kamar" name="vw_laporan_daftar_pasien_per_kamar" caption="vw laporan daftar pasien per kamar" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_laporan_inadrg" name="vw_laporan_inadrg" caption="vw laporan inadrg" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_laporan_jaspel_ibs" name="vw_laporan_jaspel_ibs" caption="vw laporan jaspel ibs" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_laporan_klaim" name="vw_laporan_klaim" caption="vw laporan klaim" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_laporan_naik_kelas_perbulan" name="vw_laporan_naik_kelas_perbulan" caption="vw laporan naik kelas perbulan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_laporan_op_ibs" name="vw_laporan_op_ibs" caption="vw laporan op ibs" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_laporan_permintaan_gudang_barang_per_bulan" name="vw_laporan_permintaan_gudang_barang_per_bulan" caption="vw laporan permintaan gudang barang per bulan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_laporan_permintaan_gudang_farmasi_per_bulan" name="vw_laporan_permintaan_gudang_farmasi_per_bulan" caption="vw laporan permintaan gudang farmasi per bulan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_laporan_rl36" name="vw_laporan_rl36" caption="vw laporan rl 36" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_list_kunjungan_pasien_pendaftaran" name="vw_list_kunjungan_pasien_pendaftaran" caption="vw list kunjungan pasien pendaftaran" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_list_pasien_rawat_inap" name="vw_list_pasien_rawat_inap" caption="vw list pasien rawat inap" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_list_pasien_rawat_jalan" name="vw_list_pasien_rawat_jalan" caption="List Pasien Rawat Jalan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_list_pasien_rujuk_ke_ibs" name="vw_list_pasien_rujuk_ke_ibs" caption="vw list pasien rujuk ke ibs" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_list_pembayaran" name="vw_list_pembayaran" caption="vw list pembayaran" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_list_permintaan_obat" name="vw_list_permintaan_obat" caption="vw list permintaan obat" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_list_spj" name="vw_list_spj" caption="vw list spj" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="vw_login_adm_ruang_ranap" name="vw_login_adm_ruang_ranap" caption="vw login adm ruang ranap" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_lookup_dokter_poli" name="vw_lookup_dokter_poli" caption="vw lookup dokter poli" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_lookup_pasien_perkamar" name="vw_lookup_pasien_perkamar" caption="vw lookup pasien perkamar" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_lookup_riwayat_pelayanan_sep" name="vw_lookup_riwayat_pelayanan_sep" caption="vw lookup riwayat pelayanan sep" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_m_login_eklaim" name="vw_m_login_eklaim" caption="vw m login eklaim" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_m_pasien" name="vw_m_pasien" caption="vw m pasien" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_mutasi_bank_tunai" name="vw_mutasi_bank_tunai" caption="vw mutasi bank tunai" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="vw_mutasi_tunai_bank" name="vw_mutasi_tunai_bank" caption="vw mutasi tunai bank" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="vw_pajak_sbp_detail" name="vw_pajak_sbp_detail" caption="Pajak SBP" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="vw_parameter_jaspel" name="vw_parameter_jaspel" caption="vw parameter jaspel" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_penandatangan_ruangan" name="vw_penandatangan_ruangan" caption="vw penandatangan ruangan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_pendaftaran_by_jeniskelamin" name="vw_pendaftaran_by_jeniskelamin" caption="vw pendaftaran by jeniskelamin" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_pendaftaran_pasien_rajal_jaminan_sosial" name="vw_pendaftaran_pasien_rajal_jaminan_sosial" caption="vw pendaftaran pasien rajal jaminan sosial" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_pendaftaran_pasien_rajal_umum" name="vw_pendaftaran_pasien_rajal_umum" caption="vw pendaftaran pasien rajal umum" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_pendaftaran_pasien_ranap_umum" name="vw_pendaftaran_pasien_ranap_umum" caption="vw pendaftaran pasien ranap umum" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_pengambalian_status_pasien" name="vw_pengambalian_status_pasien" caption="vw pengambalian status pasien" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_pindah_kamar" name="vw_pindah_kamar" caption="vw pindah kamar" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_s" name="vw_s" caption="vw s" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_sensus_harian_rawat_jalan" name="vw_sensus_harian_rawat_jalan" caption="Sensus Harian" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_sep" name="vw_sep" caption="vw sep" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_sep_rawat_inap_by_noka" name="vw_sep_rawat_inap_by_noka" caption="SEP Ranap No.Kartu" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_set_kelas_pelayanan" name="vw_set_kelas_pelayanan" caption="vw set kelas pelayanan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_set_naik_kelas" name="vw_set_naik_kelas" caption="vw set naik kelas" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_set_tanggal_pulang" name="vw_set_tanggal_pulang" caption="Pengisian Form Resume Pulang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_spm" name="vw_spm" caption="Penglolaan SPM" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="vw_spp_detail_pajak" name="vw_spp_detail_pajak" caption="LS PAJAK" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="vw_spp_gu_list" name="vw_spp_gu_list" caption="SPP GU" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="vw_spp_gu_nihil_list" name="vw_spp_gu_nihil_list" caption="SPP GU NIHIL" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="vw_spp_ls_barang_jasa_detail" name="vw_spp_ls_barang_jasa_detail" caption="Belanja LS" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="vw_spp_ls_gaji_list" name="vw_spp_ls_gaji_list" caption="SPP LS  GAJI &amp; TUNJANGAN" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="vw_spp_ls_gaji_list_detail_belanja" name="vw_spp_ls_gaji_list_detail_belanja" caption="Gaji-Belanja" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="vw_spp_ls_gaji_list_detail_pajak" name="vw_spp_ls_gaji_list_detail_pajak" caption="Gaji-Pajak" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="vw_spp_ls_kontrak_list" name="vw_spp_ls_kontrak_list" caption="SPP LS BARANG DAN JASA" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="vw_spp_ls_non_kontrak_list" name="vw_spp_ls_non_kontrak_list" caption="vw spp ls non kontrak list" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="vw_spp_pengembalian_penerimaan" name="vw_spp_pengembalian_penerimaan" caption="SPP PENGEMBALIAN PENERIMAAN KAS" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="vw_spp_pengembalian_penerimaan_detail_belanja" name="vw_spp_pengembalian_penerimaan_detail_belanja" caption="PP - BELANJA" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="vw_spp_pengembalian_penerimaan_detail_pajak" name="vw_spp_pengembalian_penerimaan_detail_pajak" caption="PP - PAJAK" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="vw_spp_tu_list" name="vw_spp_tu_list" caption="vw spp tu list" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="vw_spp_tu_nihil_list" name="vw_spp_tu_nihil_list" caption="vw spp tu nihil list" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="vw_spp_up_list" name="vw_spp_up_list" caption="SPP UP" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="vw_status_pelayanan_obat" name="vw_status_pelayanan_obat" caption="vw status pelayanan obat" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_status_ruang" name="vw_status_ruang" caption="vw status ruang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_tindakan_dokter_ranap" name="vw_tindakan_dokter_ranap" caption="vw tindakan dokter ranap" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_tindakan_eklaim" name="vw_tindakan_eklaim" caption="vw tindakan eklaim" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_tindakan_lainlain_ranap" name="vw_tindakan_lainlain_ranap" caption="vw tindakan lainlain ranap" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_tindakan_perawat_ranap" name="vw_tindakan_perawat_ranap" caption="vw tindakan perawat ranap" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_tindakan_visite" name="vw_tindakan_visite" caption="vw tindakan visite" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="vw_updttglplng" name="vw_updttglplng" caption="vw updttglplng" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="wizard_php" name="wizard.php" caption="Wizard" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="wr_master_kelompok_kegiatan_internal" name="wr_master_kelompok_kegiatan_internal" caption="wr master kelompok kegiatan internal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="ws_rujukan_by_no_rujukan_php" name="ws_rujukan_by_no_rujukan.php" caption="" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="x_lap_register_kasir_bulanan" name="x_lap_register_kasir_bulanan" caption="x lap register kasir bulanan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="x_lap_register_kasir_perpoli" name="x_lap_register_kasir_perpoli" caption="x lap register kasir perpoli" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="x_temp_register_kasir_bulanan" name="x_temp_register_kasir_bulanan" caption="x temp register kasir bulanan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="x_temp_register_kasir_perpoli" name="x_temp_register_kasir_perpoli" caption="x temp register kasir perpoli" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="x_user" name="x_user" caption="x user" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="xxx_rekap_pendapatan_bulanan" name="xxx_rekap_pendapatan_bulanan" caption="xxx rekap pendapatan bulanan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_askep" name="y_askep" caption="y askep" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_diagnosa" name="y_diagnosa" caption="y diagnosa" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_diagnosa_ibs" name="y_diagnosa_ibs" caption="y diagnosa ibs" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="y_diagnosa_poli" name="y_diagnosa_poli" caption="y diagnosa poli" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_dokter" name="y_dokter" caption="y dokter" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_expertise_radiologi" name="y_expertise_radiologi" caption="y expertise radiologi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_igd_akomodasi" name="y_igd_akomodasi" caption="y igd akomodasi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_igd_ambulan_jenazah" name="y_igd_ambulan_jenazah" caption="y igd ambulan jenazah" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_igd_asuhan_keperawatan2" name="y_igd_asuhan_keperawatan2" caption="y igd asuhan keperawatan 2" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="y_igd_kamar_pasien" name="y_igd_kamar_pasien" caption="y igd kamar pasien" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="y_igd_keterangan_pasien" name="y_igd_keterangan_pasien" caption="y igd keterangan pasien" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_igd_oksigen" name="y_igd_oksigen" caption="y igd oksigen" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_igd_penunjang" name="y_igd_penunjang" caption="y igd penunjang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="y_igd_pilih_dokter" name="y_igd_pilih_dokter" caption="y igd pilih dokter" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_igd_tindakan_jenazah" name="y_igd_tindakan_jenazah" caption="y igd tindakan jenazah" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_jenis_tindakan" name="y_jenis_tindakan" caption="y jenis tindakan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_jenis_tmno" name="y_jenis_tmno" caption="y jenis tmno" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_kasus" name="y_kasus" caption="y kasus" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_keterangan_pasien" name="y_keterangan_pasien" caption="y keterangan pasien" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_keterangan_pasien_ibs" name="y_keterangan_pasien_ibs" caption="y keterangan pasien ibs" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_konfirmasi_order" name="y_konfirmasi_order" caption="y konfirmasi order" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_kunjungan" name="y_kunjungan" caption="y kunjungan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_laboratorium_jenis" name="y_laboratorium_jenis" caption="y laboratorium jenis" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_lap_desk_rajal" name="y_lap_desk_rajal" caption="y lap desk rajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="y_lap_order_penunjang" name="y_lap_order_penunjang" caption="y lap order penunjang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="y_lap_pendaftaran_kosong_poli" name="y_lap_pendaftaran_kosong_poli" caption="y lap pendaftaran kosong poli" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_lap_penyakit_terbanyak" name="y_lap_penyakit_terbanyak" caption="y lap penyakit terbanyak" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_lap_penyakit_terbanyak_poli" name="y_lap_penyakit_terbanyak_poli" caption="y lap penyakit terbanyak poli" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_lap_register_carabayar" name="y_lap_register_carabayar" caption="y lap register carabayar" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_lap_register_pasien" name="y_lap_register_pasien" caption="y lap register pasien" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_lap_register_perpoli_bulan" name="y_lap_register_perpoli_bulan" caption="y lap register perpoli bulan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_lap_register_perpoli_hari" name="y_lap_register_perpoli_hari" caption="y lap register perpoli hari" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_lap_register_status_pulang" name="y_lap_register_status_pulang" caption="y lap register status pulang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_lap_register_tahunan" name="y_lap_register_tahunan" caption="y lap register tahunan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_lap_sensus_harian_rajal" name="y_lap_sensus_harian_rajal" caption="y lap sensus harian rajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_lap_sensus_harian_rajal_konsul" name="y_lap_sensus_harian_rajal_konsul" caption="y lap sensus harian rajal konsul" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_lap_sensus_harian_rajal_rm" name="y_lap_sensus_harian_rajal_rm" caption="y lap sensus harian rajal rm" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="y_lap_sensus_radiologi" name="y_lap_sensus_radiologi" caption="y lap sensus radiologi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_lap_tagihan_rajal" name="y_lap_tagihan_rajal" caption="y lap tagihan rajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_lap_tindakan_dokter" name="y_lap_tindakan_dokter" caption="y lap tindakan dokter" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="y_lap_transfer_pasien_ranap" name="y_lap_transfer_pasien_ranap" caption="y lap transfer pasien ranap" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_lap_unit_fisioterapi" name="y_lap_unit_fisioterapi" caption="y lap unit fisioterapi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_lap_unit_fisioterapi_peritem" name="y_lap_unit_fisioterapi_peritem" caption="y lap unit fisioterapi peritem" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_login" name="y_login" caption="y login" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_order" name="y_order" caption="y order" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_radiologi_jenis" name="y_radiologi_jenis" caption="y radiologi jenis" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_saran" name="y_saran" caption="y saran" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_temp_order_penunjang" name="y_temp_order_penunjang" caption="y temp order penunjang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="y_temp_pendaftaran_kosong_poli" name="y_temp_pendaftaran_kosong_poli" caption="y temp pendaftaran kosong poli" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_temp_penyakit_terbanyak" name="y_temp_penyakit_terbanyak" caption="y temp penyakit terbanyak" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_temp_penyakit_terbanyak_poli" name="y_temp_penyakit_terbanyak_poli" caption="y temp penyakit terbanyak poli" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_temp_register_carabayar" name="y_temp_register_carabayar" caption="y temp register carabayar" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_temp_register_pasien" name="y_temp_register_pasien" caption="y temp register pasien" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_temp_register_perpoli_bulan" name="y_temp_register_perpoli_bulan" caption="y temp register perpoli bulan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_temp_register_perpoli_hari" name="y_temp_register_perpoli_hari" caption="y temp register perpoli hari" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_temp_register_status_pulang" name="y_temp_register_status_pulang" caption="y temp register status pulang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_temp_register_tahunan" name="y_temp_register_tahunan" caption="y temp register tahunan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_temp_sensus_harian_rajal" name="y_temp_sensus_harian_rajal" caption="y temp sensus harian rajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_temp_sensus_harian_rajal_konsul" name="y_temp_sensus_harian_rajal_konsul" caption="y temp sensus harian rajal konsul" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_temp_sensus_harian_rajal_rm" name="y_temp_sensus_harian_rajal_rm" caption="y temp sensus harian rajal rm" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="y_temp_sensus_radiologi" name="y_temp_sensus_radiologi" caption="y temp sensus radiologi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_temp_tagihan_rajal" name="y_temp_tagihan_rajal" caption="y temp tagihan rajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_temp_tindakan_dokter" name="y_temp_tindakan_dokter" caption="y temp tindakan dokter" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="y_temp_transfer_pasien_ranap" name="y_temp_transfer_pasien_ranap" caption="y temp transfer pasien ranap" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_temp_unit_fisioterapi" name="y_temp_unit_fisioterapi" caption="y temp unit fisioterapi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_temp_unit_fisioterapi_peritem" name="y_temp_unit_fisioterapi_peritem" caption="y temp unit fisioterapi peritem" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_tindakan_askeb" name="y_tindakan_askeb" caption="y tindakan askeb" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_tindakan_askep" name="y_tindakan_askep" caption="y tindakan askep" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_tindakan_diagnosa_tindakan" name="y_tindakan_diagnosa_tindakan" caption="y tindakan diagnosa tindakan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_tindakan_fisioterapi" name="y_tindakan_fisioterapi" caption="y tindakan fisioterapi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_tindakan_gizi" name="y_tindakan_gizi" caption="y tindakan gizi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_tindakan_ibs" name="y_tindakan_ibs" caption="y tindakan ibs" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_tindakan_keperawatan" name="y_tindakan_keperawatan" caption="y tindakan keperawatan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_tindakan_laboratorium" name="y_tindakan_laboratorium" caption="y tindakan laboratorium" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_tindakan_laboratorium_detail" name="y_tindakan_laboratorium_detail" caption="y tindakan laboratorium detail" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="y_tindakan_laboratorium_ket" name="y_tindakan_laboratorium_ket" caption="y tindakan laboratorium ket" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="y_tindakan_penanganan_pasien_dokter" name="y_tindakan_penanganan_pasien_dokter" caption="y tindakan penanganan pasien dokter" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_tindakan_persalinan" name="y_tindakan_persalinan" caption="y tindakan persalinan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_tindakan_radiologi" name="y_tindakan_radiologi" caption="y tindakan radiologi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_tindakan_tmo_ibs" name="y_tindakan_tmo_ibs" caption="y tindakan tmo ibs" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_tindakan_tmo_poli" name="y_tindakan_tmo_poli" caption="y tindakan tmo poli" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_tmno_fisioterapi" name="y_tmno_fisioterapi" caption="y tmno fisioterapi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_tmno_group" name="y_tmno_group" caption="y tmno group" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_tmno_ibs" name="y_tmno_ibs" caption="y tmno ibs" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_tmno_jenazah" name="y_tmno_jenazah" caption="y tmno jenazah" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_tmno_keperawatan" name="y_tmno_keperawatan" caption="y tmno keperawatan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_tmno_laboratorium" name="y_tmno_laboratorium" caption="y tmno laboratorium" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_tmno_layanan" name="y_tmno_layanan" caption="y tmno layanan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_tmno_oksigen" name="y_tmno_oksigen" caption="y tmno oksigen" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_tmno_persalinan" name="y_tmno_persalinan" caption="y tmno persalinan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_tmno_pj" name="y_tmno_pj" caption="y tmno pj" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_tmno_poli" name="y_tmno_poli" caption="y tmno poli" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_tmno_radiologi" name="y_tmno_radiologi" caption="y tmno radiologi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_tmo_ibs" name="y_tmo_ibs" caption="y tmo ibs" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="y_tmo_poli" name="y_tmo_poli" caption="y tmo poli" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_aturan" name="z_aturan" caption="z aturan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_barang" name="z_barang" caption="z barang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_detail_barang" name="z_detail_barang" caption="z detail barang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_detail_koreksi" name="z_detail_koreksi" caption="z detail koreksi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_detail_mutasi" name="z_detail_mutasi" caption="z detail mutasi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_detail_pembelian" name="z_detail_pembelian" caption="z detail pembelian" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_detail_pembelian_gudang" name="z_detail_pembelian_gudang" caption="z detail pembelian gudang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_detail_pembelian_rajal" name="z_detail_pembelian_rajal" caption="z detail pembelian rajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_detail_pengiriman_rajal" name="z_detail_pengiriman_rajal" caption="z detail pengiriman rajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_detail_penjualan" name="z_detail_penjualan" caption="z detail penjualan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_detail_penjualan_gudang" name="z_detail_penjualan_gudang" caption="z detail penjualan gudang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_detail_penjualan_ibs" name="z_detail_penjualan_ibs" caption="z detail penjualan ibs" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_detail_penjualan_igd" name="z_detail_penjualan_igd" caption="z detail penjualan igd" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_detail_penjualan_rajal" name="z_detail_penjualan_rajal" caption="z detail penjualan rajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_detail_retur_pembelian" name="z_detail_retur_pembelian" caption="z detail retur pembelian" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_detail_retur_pembelian_gudang" name="z_detail_retur_pembelian_gudang" caption="z detail retur pembelian gudang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_detail_retur_pembelian_rajal" name="z_detail_retur_pembelian_rajal" caption="z detail retur pembelian rajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_detail_retur_pengiriman_rajal" name="z_detail_retur_pengiriman_rajal" caption="z detail retur pengiriman rajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_detail_retur_penjualan" name="z_detail_retur_penjualan" caption="z detail retur penjualan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_detail_retur_penjualan_gudang" name="z_detail_retur_penjualan_gudang" caption="z detail retur penjualan gudang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_detail_retur_penjualan_ibs" name="z_detail_retur_penjualan_ibs" caption="z detail retur penjualan ibs" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_detail_retur_penjualan_igd" name="z_detail_retur_penjualan_igd" caption="z detail retur penjualan igd" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_detail_retur_penjualan_rajal" name="z_detail_retur_penjualan_rajal" caption="z detail retur penjualan rajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_etiket" name="z_etiket" caption="z etiket" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_golongan_barang" name="z_golongan_barang" caption="z golongan barang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_gudang" name="z_gudang" caption="z gudang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_kadaluwarsa" name="z_kadaluwarsa" caption="z kadaluwarsa" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_koreksi" name="z_koreksi" caption="z koreksi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_lap_gudang_arus_stok" name="z_lap_gudang_arus_stok" caption="z lap gudang arus stok" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_lap_gudang_kartu_stok" name="z_lap_gudang_kartu_stok" caption="z lap gudang kartu stok" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_lap_gudang_pembelian" name="z_lap_gudang_pembelian" caption="z lap gudang pembelian" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_lap_gudang_pembelian_perfaktur" name="z_lap_gudang_pembelian_perfaktur" caption="z lap gudang pembelian perfaktur" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_lap_gudang_pengiriman" name="z_lap_gudang_pengiriman" caption="z lap gudang pengiriman" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_lap_register_igd" name="z_lap_register_igd" caption="z lap register igd" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_lap_register_rajal" name="z_lap_register_rajal" caption="z lap register rajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_lap_register_rajal_rincian" name="z_lap_register_rajal_rincian" caption="z lap register rajal rincian" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_lap_register_ranap" name="z_lap_register_ranap" caption="z lap register ranap" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_mutasi" name="z_mutasi" caption="z mutasi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_pelanggan" name="z_pelanggan" caption="z pelanggan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_pembelian" name="z_pembelian" caption="z pembelian" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_pembelian_gudang" name="z_pembelian_gudang" caption="z pembelian gudang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_pembelian_rajal" name="z_pembelian_rajal" caption="z pembelian rajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_pengiriman_rajal" name="z_pengiriman_rajal" caption="z pengiriman rajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_penjualan" name="z_penjualan" caption="z penjualan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_penjualan_gudang" name="z_penjualan_gudang" caption="z penjualan gudang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_penjualan_rajal" name="z_penjualan_rajal" caption="z penjualan rajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_retur_pembelian" name="z_retur_pembelian" caption="z retur pembelian" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_retur_pembelian_rajal" name="z_retur_pembelian_rajal" caption="z retur pembelian rajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_retur_penjualan" name="z_retur_penjualan" caption="z retur penjualan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_retur_penjualan_rajal" name="z_retur_penjualan_rajal" caption="z retur penjualan rajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_satuan_umum" name="z_satuan_umum" caption="z satuan umum" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_supplier" name="z_supplier" caption="z supplier" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_temp_gudang_arus_stok" name="z_temp_gudang_arus_stok" caption="z temp gudang arus stok" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_temp_gudang_kartu_stok" name="z_temp_gudang_kartu_stok" caption="z temp gudang kartu stok" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_temp_gudang_pembelian" name="z_temp_gudang_pembelian" caption="z temp gudang pembelian" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_temp_gudang_pembelian_perfaktur" name="z_temp_gudang_pembelian_perfaktur" caption="z temp gudang pembelian perfaktur" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_temp_gudang_pengiriman" name="z_temp_gudang_pengiriman" caption="z temp gudang pengiriman" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_temp_register_igd" name="z_temp_register_igd" caption="z temp register igd" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_temp_register_rajal" name="z_temp_register_rajal" caption="z temp register rajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_temp_register_rajal_rincian" name="z_temp_register_rajal_rincian" caption="z temp register rajal rincian" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_temp_register_ranap" name="z_temp_register_ranap" caption="z temp register ranap" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_user" name="z_user" caption="z user" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="z_waktu" name="z_waktu" caption="z waktu" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,0" priv="1" />
+    <table id="a_tindakan_poli_rajal_kasir" name="a_tindakan_poli_rajal_kasir" caption="a tindakan poli rajal kasir" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="y_tindakan_pelayanan_darah" name="y_tindakan_pelayanan_darah" caption="y tindakan pelayanan darah" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_poliklinik" name="a_poliklinik" caption="a poliklinik" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="vclaim_peserta_nobpjs_php" name="vclaim_peserta_nobpjs.php" caption="vclaim peserta by noka" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="vclaim_peserta_nik_php" name="vclaim_peserta_nik.php" caption="" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="vclaim_sep_carisep_php" name="vclaim_sep_carisep.php" caption="" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="vclaim_sep_insert_php" name="vclaim_sep_insert.php" caption="" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="vclaim_rujukan_cari_pcarenobpjs_php" name="vclaim_rujukan_cari_pcarenobpjs.php" caption="" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="vclaim_rujukan_cari_pcarenik_php" name="vclaim_rujukan_cari_pcarenik.php" caption="" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="vclaim_rujukan_insert_rujukan_php" name="vclaim_rujukan_insert_rujukan.php" caption="" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_penyakit_pasien" name="a_penyakit_pasien" caption="a penyakit pasien" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_tindakan_pelayanan_darah" name="a_tindakan_pelayanan_darah" caption="a tindakan pelayanan darah" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_tindakan_pelayanan_darah_inacbg" name="a_tindakan_pelayanan_darah_inacbg" caption="a tindakan pelayanan darah inacbg" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_tmno_pelayanan_darah" name="a_tmno_pelayanan_darah" caption="a tmno pelayanan darah" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="m_pelayanan_darah" name="m_pelayanan_darah" caption="m pelayanan darah" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="m_penyakit" name="m_penyakit" caption="m penyakit" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="y_lap_register_penyakit" name="y_lap_register_penyakit" caption="y lap register penyakit" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="y_temp_register_penyakit" name="y_temp_register_penyakit" caption="y temp register penyakit" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_tindakan_tmno" name="a_tindakan_tmno" caption="a tindakan tmno" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_tindakan_tmno_akomodasi" name="a_tindakan_tmno_akomodasi" caption="a tindakan tmno akomodasi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_tindakan_tmno_keperawatan" name="a_tindakan_tmno_keperawatan" caption="a tindakan tmno keperawatan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_tindakan_tmno_oksigen" name="a_tindakan_tmno_oksigen" caption="a tindakan tmno oksigen" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_tindakan_tmno_pilih_dokter" name="a_tindakan_tmno_pilih_dokter" caption="a tindakan tmno pilih dokter" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_diagnosa_dokter" name="a_diagnosa_dokter" caption="a diagnosa dokter" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_pendaftaran_rs" name="a_pendaftaran_rs" caption="a pendaftaran rs" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_tindakan_tmno_ambulan" name="a_tindakan_tmno_ambulan" caption="a tindakan tmno ambulan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_tindakan_tmno_jenazah" name="a_tindakan_tmno_jenazah" caption="a tindakan tmno jenazah" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="lap_penjualan_farmasi_ibs" name="lap_penjualan_farmasi_ibs" caption="lap penjualan farmasi ibs" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="lap_penjualan_farmasi_igd" name="lap_penjualan_farmasi_igd" caption="lap penjualan farmasi igd" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="lap_penjualan_farmasi_rajal" name="lap_penjualan_farmasi_rajal" caption="lap penjualan farmasi rajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="lap_penjualan_farmasi_ranap" name="lap_penjualan_farmasi_ranap" caption="lap penjualan farmasi ranap" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="temp_penjualan_farmasi_rajal" name="temp_penjualan_farmasi_rajal" caption="temp penjualan farmasi rajal" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="temp_penjualan_farmasi_rajal_retur" name="temp_penjualan_farmasi_rajal_retur" caption="temp penjualan farmasi rajal retur" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="y_lap_penyakit" name="y_lap_penyakit" caption="y lap penyakit" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="y_temp_penyakit" name="y_temp_penyakit" caption="y temp penyakit" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_tindakan_tmno_asuhan_keperawatan" name="a_tindakan_tmno_asuhan_keperawatan" caption="a tindakan tmno asuhan keperawatan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_tindakan_tmno_ket" name="a_tindakan_tmno_ket" caption="a tindakan tmno ket" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_tindakan_tmno_penunjang" name="a_tindakan_tmno_penunjang" caption="a tindakan tmno penunjang" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="y_tindakan_keterangan" name="y_tindakan_keterangan" caption="y tindakan keterangan" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="kasir_pendaftaran_bpjs" name="kasir_pendaftaran_bpjs" caption="kasir pendaftaran bpjs" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_tindakan_tmno_pilih_apoteker" name="a_tindakan_tmno_pilih_apoteker" caption="a tindakan tmno pilih apoteker" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="m_apoteker" name="m_apoteker" caption="m apoteker" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="y_igd_pilih_apoteker" name="y_igd_pilih_apoteker" caption="y igd pilih apoteker" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_pendaftaran_farmasi" name="a_pendaftaran_farmasi" caption="a pendaftaran farmasi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_pendaftaran_laboratorium" name="a_pendaftaran_laboratorium" caption="a pendaftaran laboratorium" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_pendaftaran_radiologi" name="a_pendaftaran_radiologi" caption="a pendaftaran radiologi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_tindakan_tmno_gizi" name="a_tindakan_tmno_gizi" caption="a tindakan tmno gizi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_tindakan_tmno_laboratorium" name="a_tindakan_tmno_laboratorium" caption="a tindakan tmno laboratorium" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_tindakan_tmno_laboratorium_detail" name="a_tindakan_tmno_laboratorium_detail" caption="a tindakan tmno laboratorium detail" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_tindakan_tmno_pemberian_obat_ibs" name="a_tindakan_tmno_pemberian_obat_ibs" caption="a tindakan tmno pemberian obat ibs" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_tindakan_tmno_pemberian_obat_ranap" name="a_tindakan_tmno_pemberian_obat_ranap" caption="a tindakan tmno pemberian obat ranap" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_tindakan_tmno_pemberian_retur_obat_ranap" name="a_tindakan_tmno_pemberian_retur_obat_ranap" caption="a tindakan tmno pemberian retur obat ranap" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_tindakan_tmno_radiologi" name="a_tindakan_tmno_radiologi" caption="a tindakan tmno radiologi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_tindakan_tmno_vct" name="a_tindakan_tmno_vct" caption="a tindakan tmno vct" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="y_tindakan_radiologi_detail" name="y_tindakan_radiologi_detail" caption="y tindakan radiologi detail" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="y_tindakan_vct" name="y_tindakan_vct" caption="y tindakan vct" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="pendaftaran_pasien_php" name="pendaftaran_pasien.php" caption="Pendaftaran" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="pendaftaran_pasien_proses_php" name="pendaftaran_pasien_proses.php" caption="Pendaftaran Pasien Proses" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_pendaftaran_fisioterapi_order" name="a_pendaftaran_fisioterapi_order" caption="a pendaftaran fisioterapi order" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_tindakan_tmno_radiologi_detail" name="a_tindakan_tmno_radiologi_detail" caption="a tindakan tmno radiologi detail" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_pendaftaran_ibs" name="a_pendaftaran_ibs" caption="a pendaftaran ibs" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_tindakan_tmno_fisioterapi" name="a_tindakan_tmno_fisioterapi" caption="a tindakan tmno fisioterapi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_tindakan_tmno_fisioterapi_detail" name="a_tindakan_tmno_fisioterapi_detail" caption="a tindakan tmno fisioterapi detail" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_tindakan_tmno_ibs" name="a_tindakan_tmno_ibs" caption="a tindakan tmno ibs" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="v_obat_penjualan_ranap" name="v_obat_penjualan_ranap" caption="v obat penjualan ranap" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="y_tindakan_fisioterapi_detail" name="y_tindakan_fisioterapi_detail" caption="y tindakan fisioterapi detail" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_tagihan_rawat_jalan_kasir_igd_umum" name="a_tagihan_rawat_jalan_kasir_igd_umum" caption="a tagihan rawat jalan kasir igd umum" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_tagihan_rawat_jalan_kasir_umum" name="a_tagihan_rawat_jalan_kasir_umum" caption="a tagihan rawat jalan kasir umum" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="a_tindakan_tmno_pilih_dietitian" name="a_tindakan_tmno_pilih_dietitian" caption="a tindakan tmno pilih dietitian" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="m_ahli_gizi" name="m_ahli_gizi" caption="m ahli gizi" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="y_igd_pilih_dietitian" name="y_igd_pilih_dietitian" caption="y igd pilih dietitian" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+    <table id="y_tmno_vct" name="y_tmno_vct" caption="y tmno vct" userlevel="-2,&quot;Anonymous&quot;,0;0,&quot;Default&quot;,0;1,&quot;adm_rawat_inap&quot;,8" priv="1" />
+  </project>
+</configuration>

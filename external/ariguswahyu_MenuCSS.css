@@ -1,0 +1,13 @@
+.ewMenuColumn {
+width: 100%! important;
+float: left;
+}
+
+.ewContentColumn {
+float: left;
+}
+
+#RootMenu Li {
+display: inline-block;
+}
+

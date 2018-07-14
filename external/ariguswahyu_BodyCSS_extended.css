@@ -1,0 +1,4 @@
+.MasinoHeaderRow:after,.MasinoHeaderRow:before{display:table;content:"";clear:both;}
+.StickyToTop{position:fixed;top:0;width:1240px;z-index:10000;}
+.ewLayout { margin-bottom: 24px;}
+.ewFooterRow { position: fixed; width: 1240px; bottom:0; z-index: 999;}

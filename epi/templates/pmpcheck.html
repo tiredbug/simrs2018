@@ -1,0 +1,26 @@
+<form  enctype="multipart/form-data" action = "<?php echo $_SERVER['PHP_SELF']; ?>" method = "post" name="pmpcheck" id="pmpcheck">
+<input type="hidden" name="MAX_FILE_SIZE" value="8000000" />
+<div class="box box-primary">
+<div class="box-header with-border">
+<h3 class="box-title">EPI PMP Project Checker</h3>
+</div>
+<div class="box-body">
+<div class="form-group">
+<input id="ppc_purchasecode" name="ppc_purchasecode" class="form-control" placeholder="Your Envato Purchasecode:" required="required">
+</div>
+<div class="form-group">
+<div class="btn btn-default btn-file">
+<i class="fa fa-paperclip"></i> Attachment <input id="ppc_projectfile" name="ppc_projectfile" type="file" placeholder="Your PHPMaker Project File" />
+
+</div><p class="help-block">Max. 8MB</p>
+</div>
+</div>
+<div class="box-footer">
+<div class="pull-right">
+<button type="submit" class="btn btn-primary"><i class="fa fa-envelope-o"></i> Send</button>
+</div>
+<button type="reset" class="btn btn-default"><i class="fa fa-times"></i> Discard</button>
+</div>
+</div>
+<input type="hidden" name="<?php echo EW_TOKEN_NAME ?>" value="<?php echo CurrentPage()->Token ?>">
+</form>

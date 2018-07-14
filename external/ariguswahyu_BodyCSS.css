@@ -1,0 +1,20 @@
+
+
+
+html { height: auto; width: 1240px; display: block; margin-left: auto; margin-right: auto; margin-top: 0px; padding-bottom: 0px;}
+body { background-color: inherit; border-left: 1px solid #DEDEDE; border-right: 1px solid #DEDEDE; border-top: 1px solid #DEDEDE; border-bottom: 1px solid #DEDEDE; color: inherit; margin: 0; width: 1240px; height: auto; display: block;}
+.ewLayout { width: 1240px; }
+.ewContentTable { width: 1240px; height: 100%; clear: left;}
+.ewMenuColumn { width: 150px;}
+.ewHeaderRow{line-height:10px;}
+.breadcrumb > li + li:before {content: "/\00a0"; padding: 0 5px; color: #cccccc; }
+.breadcrumb > li > .divider {padding:0; color:#ccc;}
+.ewEditForm>div>div.form-group:nth-child(odd), 
+.ewAddForm>div>div.form-group:nth-child(odd), 
+.ewSearchForm>div>div.form-group:nth-child(odd),
+.ewUpdateForm>div>div.form-group:nth-child(odd) { margin-bottom: 6px; margin-left:3px; margin-right:3px;}
+.ewEditForm>div>div.form-group:nth-child(even), 
+.ewAddForm>div>div.form-group:nth-child(even), 
+.ewSearchForm>div>div.form-group:nth-child(even),
+.ewUpdateForm>div>div.form-group:nth-child(even) { margin-bottom: 6px;  margin-left:3px; margin-right:3px;}
+.msLinkHeader{color:white;}
